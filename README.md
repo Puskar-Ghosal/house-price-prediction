@@ -89,11 +89,8 @@ house-price-prediction/
 
 | Model | R² Score | Performance |
 |---|---|---|
-| **Linear Regression** | **0.7668** | **Best Model** |
-| Random Forest | 0.6334 | Lower Accuracy |
-
-**Why did Linear Regression win?**
-In this dataset, the relationship between features like `area` and `price` is predominantly linear. The Random Forest model, while powerful, likely overfitted or struggled with the relatively small sample size (545 rows), whereas the simpler Linear Regression model captured the core trends more effectively.
+| **Random Forest** | **0.6667** | **Best Model** |
+| **Linear Regression** | **0.6540** | **Lower Accuracy** |
 
 ---
 
@@ -110,7 +107,7 @@ In this dataset, the relationship between features like `area` and `price` is pr
 
 - *"The dataset was small but high-quality, allowing for a clear comparison between linear and non-linear models."*
 - *"I used One-Hot Encoding to handle categorical variables like furnishing status, ensuring the model could interpret all features."*
-- *"Linear Regression achieved an R² of 0.7668, meaning it explains nearly 77% of the price variance."*
+- *"Random Forest achieved an R² of 0.667, meaning it explains nearly 66% of the price variance."*
 - *"I found that area, bathrooms, and air conditioning were the top three most influential features for pricing."*
 
 ---
